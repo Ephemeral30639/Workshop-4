@@ -2,7 +2,10 @@ module fiber-hello-world
 
 go 1.21
 
-require github.com/gofiber/fiber/v2 v2.52.0
+require (
+	github.com/gofiber/fiber/v2 v2.52.0
+	github.com/mattn/go-sqlite3 v1.14.17
+)
 
 require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
